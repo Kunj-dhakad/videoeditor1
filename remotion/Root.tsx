@@ -8,7 +8,6 @@ import {
   VIDEO_HEIGHT,
   VIDEO_WIDTH,
 } from "../types/constants";
-import { NextLogo } from "./MyComp/NextLogo";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -22,17 +21,7 @@ export const RemotionRoot: React.FC = () => {
         height={VIDEO_HEIGHT}
         defaultProps={defaultMyCompProps}
       />
-      <Composition
-        id="NextLogo"
-        component={NextLogo}
-        durationInFrames={300}
-        fps={30}
-        width={140}
-        height={140}
-        defaultProps={{
-          outProgress: 0,
-        }}
-      />
+      
     </>
   );
 };

@@ -18,6 +18,7 @@ export const Input: React.FC<{
       disabled={disabled}
       name="title"
       value={text}
+     
       onChange={onChange}
     />
   );
