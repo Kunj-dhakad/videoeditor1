@@ -27,6 +27,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "remotion/webpack-override.mjs"
-  ],
+, "components/TimelineMarker.jsx"  ],
   "exclude": ["node_modules"]
 }

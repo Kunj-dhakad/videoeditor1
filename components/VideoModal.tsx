@@ -48,6 +48,10 @@ const VideoGrid: React.FC<VideoGridProps> = ({ onSelectVideo }) => {
       url: 'https://cdn.pixabay.com/video/2024/03/28/205923_medium.mp4',
       thumbnail: 'https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg', // Replace with actual thumbnail URL
     },
+    {
+      url: 'https://cdn.pixabay.com/video/2024/03/28/205923_medium.mp4',
+      thumbnail: 'https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg', // Replace with actual thumbnail URL
+    },
     // Add more videos with their thumbnails here
   ];
 
